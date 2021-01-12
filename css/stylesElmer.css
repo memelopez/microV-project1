@@ -1,1 +1,11 @@
 /* all of Elmer's styles */
+
+.burgerAndMagGlass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-footer-container {
+  display: flex;
+}

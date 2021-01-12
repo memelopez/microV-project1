@@ -12,7 +12,8 @@
         <section class="navbar-container"> <!-- outer most section for the nav-->
             <div class="burgerAndMagGlass">
                 <nav class="nav-header">
-                    <svg class="burger-svg" viewBox="0 0 16 16"><rect x="1" y="3" fill="#333" width="14" height="2"></rect><rect x="1" y="7" fill="#333" width="14" height="2"></rect><rect x="1" y="11" fill="#333" width="14" height="2"></rect></svg>
+                    <!-- <svg class="burger-svg" viewBox="0 0 16 16"><rect x="1" y="3" fill="#333" width="14" height="2"></rect><rect x="1" y="7" fill="#333" width="14" height="2"></rect><rect x="1" y="11" fill="#333" width="14" height="2"></rect></svg> -->
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/beefburger.png"/>
                 </nav>
                 <section>
                     <img src="https://img.icons8.com/cotton/64/000000/detective.png"/>
@@ -272,100 +273,71 @@
           </article> <!-- end of article -->
         <aside></aside> <!-- aside -->
 
-        <footer> <!-- beging footer -->
+        <footer class="main-footer-container"> <!-- beging footer -->
             <section class="suggestedNewsletters">
-                    <div class="css-18n4040">
-                        <h2 class="css-mfr6qs" id="newsletter-section-header">Suggested newsletters for you</h2>
-                        <button type="button" class="css-1l480a7" aria-label="Dont show me this again">Don't show me this again</button>
-                    </div>
-                    <div class="css-1y4vkv1">
-                        <article>
-                            <section class="css-1xgtmq5" aria-labelledby="CK-newsletter-name" aria-describedby="CK-newsletter-description CK-newsletter-frequency">
-                                <div class="css-eu5wk9">
-                                    <div class="css-124yz3h">
-                                        <img alt="Cooking newsletter" src="https://static01.nyt.com/email-images/Newsletter%20Icons/Cooking.png">
-                                    </div>
-                                    <div class="css-1mdxmwi">
-                                        <div>
-                                            <p id="CK-newsletter-frequency" class="css-1gklyik">Four Times a Week</p>
-                                            <h3 id="CK-newsletter-name" class="css-12cjdau">Cooking</h3>
-                                            <p id="CK-newsletter-description" class="css-1ad9klu">Daily inspiration, delicious recipes and other updates from Sam Sifton and NYT Cooking.</p>
-                                        </div>
-                                    </div>
-                                    <div class="css-1hvf7iw">
-                                        <svg preserveAspectRatio="xMinYMin meet" height="40" width="40" viewBox="0 0 37 37" data-testid="circular-plus-button-selected" class="css-pn6ihi">
-                                            <circle class="css-15t031h" cx="18" cy="18" r="17" stroke="#121212" fill="#fff" stroke-width="1.5"></circle>
-                                            <line class="css-15t031h" x1="11" y1="18" x2="25" y2="18" stroke-width="2" stroke="#121212"></line>
-                                            <line class="css-15t031h" x1="18" y1="11" x2="18" y2="25" stroke-width="2" stroke="#121212"></line>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="css-z1a31d">
-                                    <div id="CK"></div>
-                                    <button class="css-1kgsm4c" type="button">Sign Up</button>
-                                </div>
-                                <a rel="noopener noreferrer" target="_blank" href="https://static.nytimes.com/email-content/CK_sample.html" class="css-1e1a8wb">See the latest</a>
+                    <div class="top-header-setcion-footer">
+                        <h2 class="" id="newsletter-section-header">Suggested newsletters for you</h2>
+                        <button type="button" class="dontShow" >Don't show me this again</button>
+                    </div> <!--End of top header in section footer "suggested"-->
+                    <div class="containsAllTheArticles">
+                        <article class="cardArticle">
+                            <section class="mainSection-cardArticle" >
+                                  <div class="img-cardArticle">
+                                      <img alt="Cooking newsletter" src="https://static01.nyt.com/email-images/Newsletter%20Icons/Cooking.png">
+                                  </div>
+                                  <div class="text-cardArticle"><!-- texto dentro del cardArticle -->
+                                          <p class="pUnderImage-cardArticle">Four Times a Week</p>
+                                          <h3 class="h3-cardArtcile">Cooking</h3>
+                                          <p class="bottomP-cardArtcile">Daily inspiration, delicious recipes and other updates from Sam Sifton and NYT Cooking.</p>
+                                  </div>
+                                  <div class="plusSign-cardArticle"> <!-- este es el svg del signo de + -->
+                                    <img src="https://img.icons8.com/fluent-systems-regular/30/000000/heart-plus.png"/>
+                                  </div>
+
+                                <a rel="noopener noreferrer" target="_blank" href="https://static.nytimes.com/email-content/CK_sample.html" class="SeeLatest-cardArticle">See the latest</a>
                             </section>
-                        </article>
-                        <article>
-                            <section class="css-1xgtmq5" aria-labelledby="NN-newsletter-name" aria-describedby="NN-newsletter-description NN-newsletter-frequency">
-                                <div class="css-eu5wk9">
-                                    <div class="css-124yz3h">
-                                        <img alt="The Morning newsletter" src="https://static.nytimes.com/email-images/newsletters/TheMorning/TheMorning-Icon.png">
-                                    </div>
-                                    <div class="css-1mdxmwi">
-                                        <div>
-                                            <p id="NN-newsletter-frequency" class="css-1gklyik">Daily</p>
-                                            <h3 id="NN-newsletter-name" class="css-12cjdau">The Morning</h3>
-                                            <p id="NN-newsletter-description" class="css-1ad9klu">Make sense of the day’s news and ideas. David Leonhardt and Times journalists guide you through what’s happening — and why it matters.</p>
-                                        </div>
-                                    </div>
-                                    <div class="">
-                                        <svg preserveAspectRatio="xMinYMin meet" height="40" width="40" viewBox="0 0 37 37" data-testid="circular-plus-button-selected" class="css-pn6ihi">
-                                            <circle class="" cx="18" cy="18" r="17" stroke="#121212" fill="#fff" stroke-width="1.5"></circle>
-                                            <line class="" x1="11" y1="18" x2="25" y2="18" stroke-width="2" stroke="#121212"></line>
-                                            <line class="" x1="18" y1="11" x2="18" y2="25" stroke-width="2" stroke="#121212"></line>
-                                        </svg>
-                                    </div>
+                        </article><!--termina 1 article-->
+
+                        <article class="cardArticle">
+                          <section class="mainSection-cardArticle" >
+                                <div class="img-cardArticle">
+                                    <img alt="Cooking newsletter" src="https://static.nytimes.com/email-images/newsletters/TheMorning/TheMorning-Icon.png">
                                 </div>
-                                <div >
-                                    <div id="NN"></div>
-                                    <button class="" type="button">Sign Up</button>
+                                <div class="text-cardArticle"><!-- texto dentro del cardArticle -->
+                                        <p class="pUnderImage-cardArticle">Daily</p>
+                                        <h3 class="h3-cardArtcile">The Morning</h3>
+                                        <p class="bottomP-cardArtcile">Make sense of the day’s news and ideas. David Leonhardt and Times journalists guide you through what’s happening — and why it matters.</p>
                                 </div>
-                                <a rel="noopener noreferrer" target="_blank" href="https://static.nytimes.com/email-content/NN_sample.html" class="">See the latest</a>
-                            </section>
-                        </article>
-                        <article>
-                            <section class="" >
-                                <div class="">
-                                    <div class="">
-                                        <img alt="Breaking News newsletter" src="https://static01.nyt.com/email-images/Newsletter%20Icons/Breaking.png">
-                                    </div>
-                                    <div class=""><div>
-                                        <p id="" class="">As Needed</p>
-                                        <h3 id="" class="">Breaking News</h3>
-                                        <p id="" class="">Alerts when important news breaks around the world.</p>
-                                    </div>
+                                <div class="plusSign-cardArticle"> <!-- este es el svg del signo de + -->
+                                  <img src="https://img.icons8.com/fluent-systems-regular/30/000000/heart-plus.png"/>
                                 </div>
-                                <div class="">
-                                    <svg  height="40" width="40"   class="">
-                                        <circle class=""></circle>
-                                        <line class=""></line>
-                                        <line class=""></line>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="">
-                                <div id="NA"></div>
-                                <button class="]" type="button">Sign Up</button>
-                            </div>
-                            <a rel="noopener noreferrer" target="_blank" href="https://static.nytimes.com/email-content/NA_sample.html" class="">See the latest</a>
+
+                              <a rel="noopener noreferrer" target="_blank" href="https://static.nytimes.com/email-content/CK_sample.html" class="SeeLatest-cardArticle">See the latest</a>
+                          </section>
+                      </article><!--termina cardArticle 2-->
+
+                      <article class="cardArticle">
+                        <section class="mainSection-cardArticle" >
+                              <div class="img-cardArticle">
+                                  <img alt="Breaking News newsletter" src="https://static01.nyt.com/email-images/Newsletter%20Icons/Breaking.png">
+                              </div>
+                              <div class="text-cardArticle"><!-- texto dentro del cardArticle -->
+                                      <p class="pUnderImage-cardArticle">As Needed</p>
+                                      <h3 class="h3-cardArtcile">Breaking News</h3>
+                                      <p class="bottomP-cardArtcile">Alerts when important news breaks around the world.</p>
+                              </div>
+                              <div class="plusSign-cardArticle"> <!-- este es el svg del signo de + -->
+                                <img src="https://img.icons8.com/fluent-systems-regular/30/000000/heart-plus.png"/>
+                              </div>
+
+                            <a rel="noopener noreferrer" target="_blank" href="https://static.nytimes.com/email-content/CK_sample.html" class="SeeLatest-cardArticle">See the latest</a>
                         </section>
-                    </article>
+                    </article><!--termina cardArticle 3-->
                 </div>
-                <button type="button" class="" >Don't show me this again</button>
+            </section> <!-- fin de la sección suggested-->
+            <section class="moreInSpace">
+
             </section>
-            <section class="moreInSpace"></section>
             <section class="editorsPick"></section>
             <aside class="mostPopular"></aside>
             <nav class="nav-footer"></nav>
