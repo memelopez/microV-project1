@@ -6,6 +6,34 @@
   justify-content: center;
 }
 
-.main-footer-container {
+.suggestedNewsletters {
   display: flex;
+  flex-direction: column;
+}
+
+.containsAllTheNewsletters {
+  display: flex;
+}
+
+.mainSection-cardNewsletter {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid grey;
+}
+
+.img-cardNewsletter {
+  width: 82px;
+  height: 82px;
+}
+
+.plusSign-cardNewsletter {
+  width: 50px;
+  height: 50px;
+}
+
+.cardNewsletter {
+  padding: 10px;
+  width: 33%;
+  min-height: 100%;
 }
