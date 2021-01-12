@@ -5,8 +5,6 @@
 
 .container {
   display: flex;
-  display: -ms-flexbox;
-  display: -webkit-box;
 }
 
 h1 {
