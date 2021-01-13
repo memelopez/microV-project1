@@ -13,7 +13,10 @@
 
 h1 {
   text-align: center;
-  font-family: "Yusei Magic", sans-serif;
+  margin-bottom: 70px;
+  font-size: 40px;
+  font-style: italic;
+  color: black;
 }
 
 img {
@@ -34,12 +37,13 @@ a {
 
 .social-icons {
   display: flex;
-  width: 100%;
+  width: 700px;
   justify-content: center;
+  margin-left: 60px;
 }
 
 .icon {
-  width: 20px;
+  width: 27px;
   margin-right: 5px;
 }
 
