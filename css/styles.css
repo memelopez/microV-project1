@@ -3,7 +3,6 @@
 /* Base Styles -------------------- */
 * {
   box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .container {
@@ -32,6 +31,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 body {
   color: #333;
   font-size: 20px;
