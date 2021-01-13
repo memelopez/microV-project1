@@ -121,7 +121,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: Georgia, "Times New Roman" Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
 }
 
