@@ -6,6 +6,53 @@
 * {
   /* border: 1px solid; */
 }
+
+.aside {
+  width: 1291px;
+  height: 779px;
+  margin: 0 auto;
+  position: absolute;
+  top: 2000px;
+}
+.aside-title {
+  font-size: 14px;
+  margin: 0%;
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+}
+.aside-box {
+  width: 210px;
+  height: 321px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aside .aside-imgbox {
+  width: 75px;
+  height: 75px;
+}
+.aside-link {
+  font-size: 14px;
+  color: inherit;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* height: 75px; */
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.aside article {
+  height: 75px;
+  margin: 0%;
+}
+.aside-art h3 {
+  margin: 0%;
+  padding-left: 5px;
+  width: 134px;
+  font-size: 14px;
+  font-weight: 500;
+}
 /* article title */
 .title {
   width: 100%;
