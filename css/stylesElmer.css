@@ -1,9 +1,27 @@
 /* all of Elmer's styles */
 
+/* top nav */
+
+.mainHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #e2e2e2;
+}
+
 .burgerAndMagGlass {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.leftIcons {
+  display: flex;
+}
+
+.clearfix1 {
+  padding-top: 37px;
 }
 
 /* Footer */
@@ -11,8 +29,6 @@
 .main-footer-container {
   padding-left: 3%;
   padding-right: 3%;
-  padding-left: 20px;
-  /* max-width: 1200px; */
   background-color: rgb(255, 255, 255);
   max-width: 70%;
   margin: 45px auto 0;
@@ -55,6 +71,10 @@
   min-height: 100%;
 }
 
+.plusSign {
+  float: right;
+}
+
 /* articles */
 
 .main-footer-container > section {
@@ -62,13 +82,13 @@
   order: 2;
   margin-right: auto;
   border-top: 1px solid darkblue;
-  /* flex-grow: 3; */
 }
+
 .main-footer-container > aside {
   width: 33%;
   order: 1;
-  /* flex-grow: 1; */
 }
+
 .main-footer-container > div {
   width: 100%;
   border-top: 2px solid darkblue;
@@ -101,7 +121,7 @@
 .cardArticle {
   width: 33%;
   flex-basis: 32%;
-  padding: 0px 20px 20px;
+  padding: 0 20px 20px 0;
   flex-grow: 1;
 }
 
@@ -125,4 +145,8 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
+}
+
+.li-footerNav {
+  font-size: 0.5em;
 }
