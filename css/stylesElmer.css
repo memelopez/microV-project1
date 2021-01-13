@@ -36,8 +36,6 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-/* padding-left: 20px; */
-/* max-width: 1200px; */
 
 /* newsletter */
 .suggestedNewsletters {
@@ -85,13 +83,11 @@
   margin-right: auto;
   border-top: 1px solid darkblue;
 }
-/* flex-grow: 3; */
 
 .main-footer-container > aside {
   width: 33%;
   order: 1;
 }
-/* flex-grow: 1; */
 
 .main-footer-container > div {
   width: 100%;
