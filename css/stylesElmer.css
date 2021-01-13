@@ -1,9 +1,28 @@
 /* all of Elmer's styles */
 
+/* top nav */
+
+.mainHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* clear: both; */
+  background-color: white;
+  border-bottom: 1px solid #e2e2e2;
+}
+
 .burgerAndMagGlass {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.leftIcons {
+  display: flex;
+}
+
+.clearfix1 {
+  padding-top: 37px;
 }
 
 /* Footer */
@@ -53,6 +72,10 @@
   padding: 10px;
   width: 33%;
   min-height: 100%;
+}
+
+.plusSign {
+  float: right;
 }
 
 /* articles */
@@ -125,4 +148,8 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
+}
+
+.li-footerNav {
+  font-size: 0.5em;
 }
