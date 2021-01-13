@@ -6,7 +6,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  /* clear: both; */
   background-color: white;
   border-bottom: 1px solid #e2e2e2;
 }
@@ -30,8 +29,6 @@
 .main-footer-container {
   padding-left: 3%;
   padding-right: 3%;
-  padding-left: 20px;
-  /* max-width: 1200px; */
   background-color: rgb(255, 255, 255);
   max-width: 70%;
   margin: 45px auto 0;
@@ -39,6 +36,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+/* padding-left: 20px; */
+/* max-width: 1200px; */
 
 /* newsletter */
 .suggestedNewsletters {
@@ -85,13 +84,15 @@
   order: 2;
   margin-right: auto;
   border-top: 1px solid darkblue;
-  /* flex-grow: 3; */
 }
+/* flex-grow: 3; */
+
 .main-footer-container > aside {
   width: 33%;
   order: 1;
-  /* flex-grow: 1; */
 }
+/* flex-grow: 1; */
+
 .main-footer-container > div {
   width: 100%;
   border-top: 2px solid darkblue;

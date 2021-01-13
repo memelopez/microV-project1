@@ -3,7 +3,6 @@
 /* Base Styles -------------------- */
 * {
   box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .container {
@@ -57,13 +56,10 @@ body {
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   height: 36px;
   margin: 0 auto;
   max-width: 1605px;
   padding: 4px 15px 2px;
-  /* position: fixed;
-  top: 0; */
 }
 
 .burgerAndMagGlass {
