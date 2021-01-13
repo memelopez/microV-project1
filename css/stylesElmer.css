@@ -6,6 +6,22 @@
   justify-content: center;
 }
 
+/* Footer */
+
+.main-footer-container {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-left: 20px;
+  /* max-width: 1200px; */
+  background-color: rgb(255, 255, 255);
+  max-width: 70%;
+  margin: 45px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* newsletter */
 .suggestedNewsletters {
   display: flex;
   flex-direction: column;
@@ -18,8 +34,9 @@
 .mainSection-cardNewsletter {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  border: 2px solid grey;
+  padding: 10px;
+  border: 2px solid lightgrey;
+  min-height: 100%;
 }
 
 .img-cardNewsletter {
@@ -36,4 +53,76 @@
   padding: 10px;
   width: 33%;
   min-height: 100%;
+}
+
+/* articles */
+
+.main-footer-container > section {
+  width: 66%;
+  order: 2;
+  margin-right: auto;
+  border-top: 1px solid darkblue;
+  /* flex-grow: 3; */
+}
+.main-footer-container > aside {
+  width: 33%;
+  order: 1;
+  /* flex-grow: 1; */
+}
+.main-footer-container > div {
+  width: 100%;
+  border-top: 2px solid darkblue;
+  order: 3;
+}
+
+.main-footer-container > section.suggestedNewsletters {
+  order: 0;
+}
+
+.main-footer-container > aside.mostPopular {
+  border-top: 1px solid darkblue;
+}
+
+.mainSection-cardArticle {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.containsAllTheArticles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 852px;
+  padding-top: 15px;
+}
+
+.cardArticle {
+  width: 33%;
+  flex-basis: 32%;
+  padding: 0px 20px 20px;
+  flex-grow: 1;
+}
+
+/* lower nav */
+
+.centerLogo-header-navFooter {
+  height: 15px;
+}
+
+.navbars-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.allVerticalNavs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastHorizontalNav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
 }
