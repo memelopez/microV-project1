@@ -39,21 +39,20 @@
   font-size: 14px;
   color: inherit;
   font-family: Georgia, "Times New Roman", Times, serif;
-  /* height: 75px; */
   height: 100%;
   display: flex;
   flex-direction: row;
-}
-
-.aside article {
-  height: 75px;
-  margin: 0%;
 }
 
 article {
   font-family: "Martel", serif;
   color: #333;
   font-weight: 600;
+}
+
+.aside article {
+  height: 75px;
+  margin: 0%;
 }
 
 .aside-art h3 {
@@ -168,6 +167,7 @@ a {
   padding: 0;
   color: rgb(88, 89, 90);
 }
+
 /* cards */
 .cards-div {
   height: 657px;
@@ -178,7 +178,7 @@ a {
 
 .cards-div p {
   width: 945px;
-  height: 18;
+  height: 18px;
   font-size: 14px;
   margin: 0;
 }
