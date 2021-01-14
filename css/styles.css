@@ -18,6 +18,12 @@ h1 {
   color: black;
 }
 
+h2 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-family: helvetica, arial, sans-serif;
+}
+
 img {
   width: 100%;
 }
@@ -36,6 +42,7 @@ body {
   color: #333;
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 30px;
 }
 
 /* Main Styles --------------------- */
@@ -56,16 +63,8 @@ body {
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 36px;
+  height: 40px;
   margin: 0 auto;
   max-width: 1605px;
-  padding: 4px 15px 2px;
-}
-
-.burgerAndMagGlass {
-  display: flex;
-}
-
-.burger-svg {
-  width: 25px;
+  padding: 4px 15px 10px;
 }
