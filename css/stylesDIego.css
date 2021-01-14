@@ -2,16 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Martel:wght@300&family=Yusei+Magic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Martel:wght@300&display=swap");
 
-* {
-  /* border: 1px solid; */
-}
+/* aside */
 
 .aside {
   width: 1291px;
-  height: 779px;
+  height: 420px;
   margin: 0 auto;
   position: absolute;
-  top: 2000px;
+  top: 1675px;
 }
 
 .aside-title {
@@ -63,11 +61,16 @@ article {
   font-weight: 500;
 }
 
+/* article */
+.icon {
+  margin-right: 20px;
+}
 /* article title */
 .title {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: -29px;
 }
 
 h1 {
@@ -82,28 +85,37 @@ strong {
   color: black;
 }
 
-.ar-img-container {
+.art-img-container {
+  /* width: 100%; */
+  width: 1255px;
+  height: 600px;
   display: flex;
-  width: 100%;
-}
-
-.box-img {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.article-img {
+.box-img1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 945px;
-  height: 545px;
+  height: 531px;
+}
+
+.article-img1 {
+  width: 945px;
+  height: 531px;
 }
 
 .img-desc {
   width: 680px;
-  margin: 0% 22% 0% 0%;
+  margin: 0% 21% 0% 0%;
   font-size: 13px;
   color: rgb(71, 72, 73);
+}
+
+.img-desc span {
+  margin: 5px;
 }
 
 /* article text */
@@ -137,15 +149,55 @@ a {
   font-size: 12px;
 }
 
-.NYT-add {
-  width: 300px;
-  margin-left: 25%;
+.hr-add {
+  width: 50px;
+  margin: 30px 46% 30px 46%;
 }
 
-.add1 {
+.img-article {
+  width: 600px;
+}
+
+.NYT-add1 {
+  display: flex;
+  width: 600px;
+  align-items: center;
+}
+.NYT-add1 button {
+  font-size: 0.9375rem;
+  width: 79px;
+  height: 32px;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.NYT-add1 button:hover {
+  background-color: black;
+  color: white;
+}
+
+.NYT-add1 p {
+  margin-right: 10px;
+  font-size: 17px;
+  font-style: italic;
+}
+#add3 {
+  font-weight: 400;
+}
+
+#add1,
+#add2 {
+  text-align: center;
+  width: 600px;
   margin: 0;
 }
-
+iframe {
+  border: none;
+}
 .youtube-video {
   display: flex;
   flex-direction: column;
@@ -166,6 +218,11 @@ a {
   margin: 0;
   padding: 0;
   color: rgb(88, 89, 90);
+}
+
+.strong-title {
+  width: 600px;
+  text-align: left;
 }
 
 /* cards */
@@ -201,32 +258,59 @@ a {
   height: 128px;
   font-size: 10px;
 }
-
-.card-layout {
-  /* overflow: visible; */
-  height: 576px;
+.card-grid {
+  margin-top: 16px;
   width: 945px;
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
+  height: 576px;
   background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
   background-color: white;
   background-repeat: no-repeat;
-  background-size: 900px;
+  background-size: 100%;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    "box1 box2 box3 box4"
+    "box5 box6 box7 box8";
 }
 
-#card-1,
-#card-2,
-#card-3,
-#card-4,
-#card-5,
-#card-6,
-#card-7,
-#card-8 {
-  margin-top: 138px;
+.box {
+  width: 228px;
+  height: 129px;
+  font-size: 11px;
+  margin-top: 135px;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: lighter;
+}
+.box1 {
+  grid-area: box1;
+}
+.box2 {
+  grid-area: box2;
+}
+
+.box3 {
+  grid-area: box3;
+}
+
+.box4 {
+  grid-area: box4;
+}
+
+.box5 {
+  grid-area: box5;
+}
+
+.box6 {
+  grid-area: box6;
+}
+
+.box7 {
+  grid-area: box7;
+}
+
+.box8 {
+  grid-area: box8;
 }
 
 .credits-theory {
@@ -234,12 +318,55 @@ a {
   margin-bottom: 30px;
 }
 
+.hr-theory {
+  width: 50px;
+  margin-left: 196px;
+}
+
 .credits-theory p {
-  padding-left: 171px;
+  padding-left: 195px;
   margin: 0;
 }
+
+/* article continues */
 
 .cook-line {
   width: 600px;
   color: rgb(199, 194, 194);
+}
+
+.bottom-box {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.bottom-box q {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.bottom-box q a {
+  text-decoration: underline;
+}
+.bottom-box q a:hover {
+  text-decoration: none;
+}
+
+.bot-but {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coment-button {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  width: 330px;
+  font-weight: 700;
+  color: white;
+  border-radius: 3px;
+}
+
+.coment-button:hover {
+  background-color: rgb(50, 104, 145);
 }
