@@ -13,15 +13,50 @@
 .burgerAndMagGlass {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 76px;
 }
 
 .leftIcons {
   display: flex;
+  justify-content: space-between;
+  width: 250px;
 }
 
 .clearfix1 {
   padding-top: 37px;
+}
+
+.burger,
+.lupa {
+  height: 20px;
+  width: 20px;
+}
+
+.spaceNcosmos {
+  font-size: 14.25px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.centerLogo {
+  align-items: center;
+  padding-top: 5px;
+}
+
+.UpperNavRightButton {
+  padding: 11px 12px 8px;
+  border-radius: 3px;
+  font-family: helvetica, arial, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 /* Footer */
