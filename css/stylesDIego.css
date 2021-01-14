@@ -65,6 +65,7 @@ article {
 .icon {
   margin-right: 20px;
 }
+
 /* article title */
 .title {
   width: 100%;
@@ -163,8 +164,8 @@ a {
   width: 600px;
   align-items: center;
 }
+
 .NYT-add1 button {
-  font-size: 0.9375rem;
   width: 79px;
   height: 32px;
   font-size: 0.7em;
@@ -185,6 +186,7 @@ a {
   font-size: 17px;
   font-style: italic;
 }
+
 #add3 {
   font-weight: 400;
 }
@@ -195,9 +197,11 @@ a {
   width: 600px;
   margin: 0;
 }
+
 iframe {
   border: none;
 }
+
 .youtube-video {
   display: flex;
   flex-direction: column;
@@ -258,6 +262,7 @@ iframe {
   height: 128px;
   font-size: 10px;
 }
+
 .card-grid {
   margin-top: 16px;
   width: 945px;
@@ -282,9 +287,11 @@ iframe {
   font-size: 14px;
   font-weight: lighter;
 }
+
 .box1 {
   grid-area: box1;
 }
+
 .box2 {
   grid-area: box2;
 }
@@ -349,6 +356,7 @@ iframe {
 .bottom-box q a {
   text-decoration: underline;
 }
+
 .bottom-box q a:hover {
   text-decoration: none;
 }
