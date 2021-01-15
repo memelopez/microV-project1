@@ -377,3 +377,53 @@ iframe {
 .coment-button:hover {
   background-color: rgb(50, 104, 145);
 }
+
+/* form */
+.form {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.form ul:hover {
+  background-color: #2a2b2c83;
+  color: white;
+}
+
+.form ul {
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 2%;
+}
+
+.form-name label {
+  padding-right: 15px;
+}
+.form-mail label {
+  padding-right: 7px;
+}
+
+.form-comment {
+  display: flex;
+  flex-direction: column;
+}
+#comment {
+  height: 90px;
+}
+.submit-but {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.submit-but button {
+  width: 100px;
+  font-weight: 600;
+}
+
+.submit-but button:hover {
+  background-color: black;
+  color: white;
+  border: rgb(245, 241, 241);
+}
