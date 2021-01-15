@@ -401,6 +401,7 @@ iframe {
 .form-name label {
   padding-right: 15px;
 }
+
 .form-mail label {
   padding-right: 7px;
 }
@@ -409,9 +410,11 @@ iframe {
   display: flex;
   flex-direction: column;
 }
+
 #comment {
   height: 90px;
 }
+
 .submit-but {
   padding-top: 15px;
   text-align: center;
