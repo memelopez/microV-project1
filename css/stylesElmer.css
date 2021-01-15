@@ -67,7 +67,7 @@
   padding-right: 3%;
   background-color: rgb(255, 255, 255);
   /* max-width: 80%; */
-  width: 1200px;
+  width: 90%;
   margin: 45px auto 0;
   display: flex;
   flex-direction: row;
@@ -99,8 +99,10 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border: 2px solid lightgrey;
   min-height: 100%;
+}
+.cardNewsletter {
+  border: 2px solid lightgrey;
 }
 
 .img-cardNewsletter {
@@ -108,14 +110,11 @@
   height: 82px;
 }
 
-.plusSign-cardNewsletter {
-  float: right;
-}
-
 .cardNewsletter {
   padding: 10px;
   width: 33%;
   min-height: 100%;
+  margin: 0 10px;
 }
 
 .dontShow {
@@ -150,7 +149,7 @@
 .plusSign {
   width: 50px;
   height: 50px;
-  align-self: flex-end;
+  float: right;
 }
 
 .bottomP-cardNews {
@@ -169,8 +168,12 @@
   font-weight: 700;
   line-height: 1.125rem;
   letter-spacing: 0.2px;
-  /* align-self: flex-end; */
+  align-self: baseline;
   text-align: left;
+}
+
+.text-cardNewsletter {
+  margin-bottom: auto;
 }
 
 /* articles */
@@ -208,13 +211,18 @@
   width: 100%;
   max-width: 852px;
   padding-top: 15px;
+  line-height: normal;
 }
 
 .cardArticle {
   width: 33%;
-  flex-basis: 32%;
+  /* flex-basis: 32%; */
   padding: 0 20px 20px 0;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+}
+
+.img-cardArticle {
+  max-height: 260px;
 }
 
 .top-header-setcion-footer {
@@ -276,10 +284,16 @@
   font-weight: 500;
 }
 
+.disappear {
+  display: none;
+}
+
 /* lower nav */
 
 .centerLogo-header-navFooter {
   height: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .navbars-footer {
