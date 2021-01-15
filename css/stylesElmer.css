@@ -193,7 +193,6 @@
 
 .cardArticle {
   width: 33%;
-
   padding: 0 20px 20px 0;
 }
 
@@ -210,7 +209,6 @@
   padding-bottom: 4px;
   font-size: 0.625rem;
   text-transform: none;
-  margin: 3px 0px 0px;
   text-align: right;
   color: rgb(153, 153, 153);
 }
@@ -247,9 +245,10 @@
 .mostPopular {
   border-top: 1px solid rgb(0, 0, 0);
 }
+
 .title-mostPopular {
   border-bottom: 1px solid rgb(226, 226, 226);
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 .titleArticle {
@@ -305,7 +304,6 @@
   font-size: 0.5em;
   color: rgb(0, 0, 0);
   font-family: helvetica, arial, sans-serif;
-  font-size: 14px;
   font-weight: 500;
   height: 23px;
   line-height: 16px;
