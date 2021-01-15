@@ -100,9 +100,6 @@
   padding: 10px;
   min-height: 100%;
 }
-.cardNewsletter {
-  border: 2px solid lightgrey;
-}
 
 .img-cardNewsletter {
   width: 82px;
@@ -114,6 +111,7 @@
   width: 33%;
   min-height: 100%;
   margin: 0 10px;
+  border: 2px solid lightgrey;
 }
 
 .dontShow {
