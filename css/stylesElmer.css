@@ -31,6 +31,7 @@
 .lupa {
   height: 20px;
   width: 20px;
+  padding-top: 8px;
 }
 
 .spaceNcosmos {
@@ -65,17 +66,28 @@
   padding-left: 3%;
   padding-right: 3%;
   background-color: rgb(255, 255, 255);
-  max-width: 70%;
+  width: 90%;
   margin: 45px auto 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.container80 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container20 {
+  width: 30%;
+  margin-left: 30px;
 }
 
 /* newsletter */
 .suggestedNewsletters {
   display: flex;
   flex-direction: column;
+  border-top: 1px solid rgb(0, 0, 0);
 }
 
 .containsAllTheNewsletters {
@@ -86,7 +98,6 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border: 2px solid lightgrey;
   min-height: 100%;
 }
 
@@ -95,15 +106,12 @@
   height: 82px;
 }
 
-.plusSign-cardNewsletter {
-  width: 50px;
-  height: 50px;
-}
-
 .cardNewsletter {
   padding: 10px;
   width: 33%;
   min-height: 100%;
+  margin: 0 10px;
+  border: 2px solid lightgrey;
 }
 
 .dontShow {
@@ -136,36 +144,36 @@
 }
 
 .plusSign {
+  width: 50px;
+  height: 50px;
   float: right;
 }
 
+.bottomP-cardNews {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: helvetica, arial, sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+}
+
+.SeeLatest-cardNewsletter {
+  color: rgb(50, 104, 145);
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.2px;
+  align-self: baseline;
+  text-align: left;
+}
+
+.text-cardNewsletter {
+  margin-bottom: auto;
+}
+
 /* articles */
-
-.main-footer-container > section {
-  width: 66%;
-  order: 2;
-  margin-right: auto;
-  border-top: 1px solid rgb(0, 0, 0);
-}
-
-.main-footer-container > aside {
-  width: 33%;
-  order: 1;
-}
-
-.main-footer-container > div {
-  width: 100%;
-  border-top: 1px solid rgb(0, 0, 0);
-  order: 3;
-}
-
-.main-footer-container > section.suggestedNewsletters {
-  order: 0;
-}
-
-.main-footer-container > aside.mostPopular {
-  border-top: 1px solid rgb(0, 0, 0);
-}
 
 .mainSection-cardArticle {
   display: flex;
@@ -180,13 +188,16 @@
   width: 100%;
   max-width: 852px;
   padding-top: 15px;
+  line-height: normal;
 }
 
 .cardArticle {
   width: 33%;
-  flex-basis: 32%;
   padding: 0 20px 20px 0;
-  flex-grow: 1;
+}
+
+.img-cardArticle {
+  max-height: 260px;
 }
 
 .top-header-setcion-footer {
@@ -194,25 +205,93 @@
   justify-content: space-between;
 }
 
-.icon-footerNav1 {
-  width: 15px;
-  height: 15px;
+.textUnderImage-article {
+  padding-bottom: 4px;
+  font-size: 0.625rem;
+  text-transform: none;
+  text-align: right;
+  color: rgb(153, 153, 153);
+}
+
+.mainArticleText {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: rgb(18, 18, 18);
+  margin: 0;
+}
+
+.lowerSpanArticle {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+}
+
+/* more in space and astronomy */
+.moreInSpace {
+  border-top: 1px solid rgb(0, 0, 0);
+  margin-top: 20px;
+}
+
+/* editor's pick */
+.editorsPick {
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+/* most popular */
+
+.mostPopular {
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.title-mostPopular {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0;
+}
+
+.titleArticle {
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  color: rgb(18, 18, 18);
+  font-family: georgia, "times new roman", times, serif;
+  font-weight: 500;
+}
+
+.disappear {
+  display: none;
 }
 
 /* lower nav */
 
 .centerLogo-header-navFooter {
   height: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .navbars-footer {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 3% 9px;
 }
 
 .allVerticalNavs {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.bottomNavH3 {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 15px;
+  text-transform: uppercase;
 }
 
 .lastHorizontalNav {
@@ -223,4 +302,46 @@
 
 .li-footerNav {
   font-size: 0.5em;
+  color: rgb(0, 0, 0);
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
+.icon-footerNav1 {
+  width: 15px;
+  height: 15px;
+}
+
+.header-navFooter {
+  border-top: 3px solid #e2e2e2;
+  padding-top: 5px;
+}
+
+.li-footerNav1-bold {
+  color: rgb(0, 0, 0);
+  font-family: helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+}
+
+.li-footerNav-small {
+  color: rgb(0, 0, 0);
+  font-family: helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.lastNav {
+  border-top: 1px solid #ebebeb;
+  padding-top: 9px;
+}
+
+.lastUpperNav {
+  border-left: 1px solid #ebebeb;
+  padding-left: 20px;
 }
