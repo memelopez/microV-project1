@@ -176,6 +176,12 @@ a {
   border-radius: 3px;
 }
 
+.submit-but button:hover {
+  background-color: black;
+  color: white;
+  border: rgb(245, 241, 241);
+}
+
 .NYT-add1 button:hover {
   background-color: black;
   color: white;
@@ -387,15 +393,15 @@ iframe {
   font-size: 14px;
 }
 
-.form ul:hover {
-  background-color: #2a2b2c83;
-  color: white;
-}
-
 .form ul {
   border: 1px solid;
   border-radius: 3px;
   padding: 2%;
+}
+
+.form ul:hover {
+  background-color: #2a2b2c83;
+  color: white;
 }
 
 .form-name label {
@@ -423,10 +429,4 @@ iframe {
 .submit-but button {
   width: 100px;
   font-weight: 600;
-}
-
-.submit-but button:hover {
-  background-color: black;
-  color: white;
-  border: rgb(245, 241, 241);
 }
