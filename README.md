@@ -23,7 +23,7 @@ and style to the elements and make it look as similiar as possible to the main a
 
 - GitHub: [@githubhandle](https://github.com/memelopez)
 - Twitter: [@twitterhandle](https://twitter.com/memelopez10)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/elmer-lopez-51b187200/)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 👤 **Diego Hernández**
 
@@ -38,3 +38,7 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
