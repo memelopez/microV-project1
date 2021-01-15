@@ -176,6 +176,11 @@ a {
   border-radius: 3px;
 }
 
+.submit-but button {
+  width: 100px;
+  font-weight: 600;
+}
+
 .submit-but button:hover {
   background-color: black;
   color: white;
@@ -424,9 +429,4 @@ iframe {
 .submit-but {
   padding-top: 15px;
   text-align: center;
-}
-
-.submit-but button {
-  width: 100px;
-  font-weight: 600;
 }
