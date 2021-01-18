@@ -1,0 +1,379 @@
+/* put all your styles here Diego */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Martel:wght@300&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Martel:wght@300&display=swap");
+
+/* aside */
+
+.aside {
+  width: 1291px;
+  height: 420px;
+  margin: 0 auto;
+  position: absolute;
+  top: 1875px;
+}
+
+.aside-title {
+  font-size: 14px;
+  margin: 0%;
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+}
+
+.aside-box {
+  width: 210px;
+  height: 321px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aside .aside-imgbox {
+  width: 75px;
+  height: 75px;
+}
+
+.aside-link {
+  font-size: 14px;
+  color: inherit;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+article {
+  font-family: "Martel", serif;
+  color: #333;
+  font-weight: 600;
+}
+
+.aside article {
+  height: 75px;
+  margin: 0%;
+}
+
+.aside-art h3 {
+  margin: 0%;
+  padding-left: 5px;
+  width: 134px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* article */
+.icon {
+  margin-right: 20px;
+}
+
+/* article title */
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -29px;
+}
+
+h1 {
+  width: 60%;
+  text-align: left;
+  margin-left: 140px;
+  font-family: "Martel", serif;
+}
+
+/* article img */
+strong {
+  color: black;
+}
+
+.art-img-container {
+  /* width: 100%; */
+  width: 1255px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-img1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 945px;
+  height: 531px;
+}
+
+.article-img1 {
+  width: 945px;
+  height: 531px;
+}
+
+.img-desc {
+  width: 680px;
+  margin: 0% 21% 0% 0%;
+  font-size: 13px;
+  color: rgb(71, 72, 73);
+}
+
+.img-desc span {
+  margin: 5px;
+}
+
+/* article text */
+.author-name h4,
+a {
+  color: black;
+}
+
+.a {
+  color: #326891;
+}
+
+.art-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.art-p p {
+  width: 600px;
+}
+
+.author {
+  width: 600px;
+}
+
+.author time {
+  font-size: 12px;
+}
+
+.hr-add {
+  width: 50px;
+  margin: 30px 46% 30px 46%;
+}
+
+.img-article {
+  width: 600px;
+}
+
+.NYT-add1 {
+  display: flex;
+  width: 600px;
+  align-items: center;
+}
+
+.NYT-add1 button {
+  width: 79px;
+  height: 32px;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.NYT-add1 button:hover {
+  background-color: black;
+  color: white;
+}
+
+.NYT-add1 p {
+  margin-right: 10px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+#add3 {
+  font-weight: 400;
+}
+
+#add1,
+#add2 {
+  text-align: center;
+  width: 600px;
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+.youtube-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.embeddedV {
+  width: 561px;
+  height: 350px;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(68, 69, 70);
+}
+
+.embeddedV p {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  color: rgb(88, 89, 90);
+}
+
+.strong-title {
+  width: 600px;
+  text-align: left;
+}
+
+/* cards */
+.cards-div {
+  height: 657px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+}
+
+.cards-div p {
+  width: 945px;
+  height: 18px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.theryOfInflation {
+  width: 945px;
+  height: 576px;
+  display: flex;
+  align-items: center;
+}
+
+.cards-section-text {
+  width: 657px;
+}
+
+.card {
+  margin: 6px;
+  width: 218px;
+  height: 128px;
+  font-size: 10px;
+}
+
+.card-grid {
+  margin-top: 16px;
+  width: 945px;
+  height: 576px;
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    "box1 box2 box3 box4"
+    "box5 box6 box7 box8";
+}
+
+.box {
+  width: 228px;
+  height: 129px;
+  margin-top: 135px;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.box1 {
+  grid-area: box1;
+}
+
+.box2 {
+  grid-area: box2;
+}
+
+.box3 {
+  grid-area: box3;
+}
+
+.box4 {
+  grid-area: box4;
+}
+
+.box5 {
+  grid-area: box5;
+}
+
+.box6 {
+  grid-area: box6;
+}
+
+.box7 {
+  grid-area: box7;
+}
+
+.box8 {
+  grid-area: box8;
+}
+
+.credits-theory {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.hr-theory {
+  width: 50px;
+  margin-left: 196px;
+}
+
+.credits-theory p {
+  padding-left: 195px;
+  margin: 0;
+}
+
+/* article continues */
+
+.cook-line {
+  width: 600px;
+  color: rgb(199, 194, 194);
+}
+
+.bottom-box {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.bottom-box q {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.bottom-box q a {
+  text-decoration: underline;
+}
+
+.bottom-box q a:hover {
+  text-decoration: none;
+}
+
+.bot-but {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coment-button {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  width: 330px;
+  font-weight: 700;
+  color: white;
+  border-radius: 3px;
+}
+
+.coment-button:hover {
+  background-color: rgb(50, 104, 145);
+}
