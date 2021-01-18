@@ -9,8 +9,6 @@
 In this project we implemented HTML tags, CSS, CSS flex-box, floats and CSS-grid to properly give position
 and style to the elements and make it look as similiar as possible to the main article page.
 
-> > > > > > > b994c84e022809e05a5388c77ea50be92f46c163
-
 ## Built With
 
 - HTML & CSS
